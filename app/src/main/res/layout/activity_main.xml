@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="@drawable/wel"
+    tools:context="com.example.android.nicetimecofeshop.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nice"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nice time cafeshop"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+<ImageView
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:src="@drawable/callll"
+
+
+    />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+20124350008"
+        android:textAllCaps="true"
+       android:gravity="center"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/location2"
+            android:layout_marginRight="5dp"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="abd el naser street, el salam 2 \n suez, egypt"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textColor="#E91E63"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we promise you to spend nice\n time with us.."
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:paddingTop="20dp"
+        />
+</LinearLayout>
